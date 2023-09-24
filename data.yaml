@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['Logotype Arbitrum', 'Logotype FileCoin', 'Logotype GnosisChain', 'Logotype Polygon', 'Logotype Scroll', 'Logotype WalletConnect', 'Logotype WorldCoin']
+
+roboflow:
+  workspace: patrick-escande-d1ddp
+  project: logo-detection-pysfc
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/patrick-escande-d1ddp/logo-detection-pysfc/1
